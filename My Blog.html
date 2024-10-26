@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghu Veer's Profile</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f4f8;
+        }
+
+        /* Heading Styling */
+        .main-heading {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Container Styling */
+        .container {
+            display: flex;
+            width: 80%;
+            height: 70%;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Left Section */
+        .profile-left {
+            background-color: #00a6e5;
+            width: 40%;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        .profile-left img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-left img:hover {
+            transform: scale(1.1);
+        }
+
+        .profile-left h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .profile-left p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            margin: 20px 0;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .profile-left button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #00a6e5;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .profile-left button:hover {
+            background-color: #e5f7ff;
+        }
+
+        /* Right Section */
+        .profile-right {
+            background-color: #ffffff;
+            width: 60%;
+            padding: 40px;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+
+        .profile-right h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .profile-right h2 {
+            font-size: 18px;
+            font-weight: normal;
+            color: #999;
+            margin-bottom: 20px;
+        }
+
+        .profile-right p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #00a6e5;
+            border: 2px solid #00a6e5;
+            border-radius: 5px;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .buttons button:hover {
+            background-color: #00a6e5;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Heading -->
+    <h1 class="main-heading">Welcome to My Blog</h1>
+
+    <div class="container">
+        <!-- Left Section -->
+        <div class="profile-left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm0Lq8VXSL_vW1qIE0KKiUNSI8acZ3M17lDQ&s" alt="Raghu Veer">
+            <h1>Raghu Veer</h1>
+            <p>Student Seeking Internships</p>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/r-v-raghu-veer-1ab61329b/" target="_blank">LinkedIn</a> |
+                <a href="https://www.facebook.com/Raghu.official.01" target="_blank">Facebook</a> |
+                <a href="https://x.com/Raghutweets329" target="_blank">Twitter</a>
+            </div>
+            
+            <button>Download CV</button>
+        </div>
+
+        <!-- Right Section -->
+        <div class="profile-right">
+            <h1>Raghu Veer</h1>
+            <h2>Student, Aspiring Data Scientist</h2>
+            <p>
+                Hello! I'm Raghu Veer, a data science and AI enthusiast with a strong academic background in technology. 
+                I'm currently seeking internship opportunities to enhance my skills and gain hands-on experience in the industry.
+            </p>
+            <p>
+                I am passionate about working on projects that require data-driven solutions and using AI to solve complex problems.
+                My goal is to become proficient in the field of data science and contribute meaningfully to cutting-edge projects.
+            </p>
+
+            <h3>Skills:</h3>
+            <ul>
+                <li>Python, Java</li>
+                <li>Data Analysis & Visualization</li>
+                <li>Machine Learning & Deep Learning</li>
+                <li>Database Management</li>
+                <li>Natural Language Processing</li>
+            </ul>
+
+            <div class="buttons">
+                <button>Download CV</button>
+                <button>Contact</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
